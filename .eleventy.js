@@ -1,10 +1,13 @@
 module.exports = function(eleventyConfig) {
     
-    eleventyConfig.addPassthroughCopy('./src/default-style.css');
+    eleventyConfig.ignores.add("customers/customer-template/");
+    eleventyConfig.addPassthroughCopy('src/assets');
     
     return {
         dir: {
             input: "src",
+            includes: "_includes",
+            data: "_data",
             output: "public"
         }
     };

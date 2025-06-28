@@ -1,0 +1,8 @@
+{
+  "name": "Customer One",
+  "style": "home-v1.css",
+  "title": "Customer One",
+  "about": "Customer One's custom about text here.",
+  "offering": "Services or Products",
+  "whyBlurb": "write a 'why you should choose us' blurb for a website in 24 words for a business that sells CHANGE_ME. this will also lead into a bulleted list of reasons below it"
+}
